@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: dimgray;
+        }
+        header{
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            margin: 100px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.388);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas Tecnológias</p>
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam consequuntur harum facere aliquam cupiditate quos aperiam, necessitatibus quidem debitis officiis distinctio, explicabo nesciunt aspernatur optio eveniet eos hic ipsum quisquam.</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido no Curso em Vídeo</p>
+    </footer>
+    
+
+</body>
+</html>
