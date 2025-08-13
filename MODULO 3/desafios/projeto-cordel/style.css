@@ -51,23 +51,23 @@ a:hover{
     text-decoration: underline;
 }
 
-body p{
-    padding-left: 30px;
-}
 
 section{
     font-family: var(--fonte02);
-    text-align: left;
     font-size: 3.5vw;
-    white-space: pre-line;
     line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section p{
+    padding-bottom: 2.5rem;
 }
 
 .estrofe{
     background-color: white;
     color: black;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
 }
 
 .imagem{
